@@ -1,0 +1,118 @@
+/* ------------------------------
+   MAIN LOGIN CONTAINER (TOP BOX)
+--------------------------------*/
+.container1 {
+    text-align: center;
+    height: 70vh;
+    width: 63vw;
+    background-repeat: no-repeat;
+    background-position: cover;
+    border: 1px solid rgb(190, 162, 162);
+}
+
+/* Logo container */
+box {
+    background-color: #f1eded;
+    font-size: 32px;
+}
+
+/* ------------------------------
+   LOGIN FORM STYLING
+--------------------------------*/
+form {
+    text-align: center;
+    margin-top: 0px;
+}
+
+/* Email input field */
+.email {
+    width: 250px;
+    height: 19px;
+    background-color: beige;
+    border: 1px solid black;
+}
+
+/* Password input field */
+.password {
+    margin-top: 10px;
+    height: 19px;
+    width: 250px;
+    background-color: beige;
+    border: 1px solid black;
+}
+
+/* Login button */
+.first {
+    background-color: rgb(4, 209, 209);
+    position: relative;
+    height: 23px;
+    width: 270px;
+    margin-top: 14px;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+}
+
+/* OR Divider text */
+.third {
+    margin-top: 19px;
+    border-left-style: 1px solid black;
+    font-size: large;
+}
+
+/* ------------------------------
+   FACEBOOK LOGIN SECTION
+--------------------------------*/
+.block {
+    margin-top: 25px;
+    display: inline-flex;
+}
+
+/* Facebook icon */
+.block img {
+    height: 30px;
+    width: 30px;
+    float: left;
+}
+
+/* Facebook text */
+.block span {
+    float: left;
+    margin-top: 7px;
+    font-weight: 3px bold;
+}
+
+/* Forget password text */
+.box1 {
+    margin-top: 20px;
+}
+
+/* ------------------------------
+   BOTTOM SIGNUP CONTAINER
+--------------------------------*/
+.container2 {
+    margin-top: 10px;
+    height: 10vh;
+    width: 63vw;
+    background-repeat: no-repeat;
+    background-position: cover;
+    border: 1px solid rgb(190, 162, 162);
+    text-align: center;
+}
+
+/* Text: "Don't have an account?" */
+.y {
+    position: relative;
+    color: black;
+    display: inline;
+}
+
+/* Signup button */
+.h {
+    margin-top: 15px;
+    color: rgba(8, 230, 230, 0.89);
+    font-style: bold;
+    border: none;
+    cursor: pointer;
+}
